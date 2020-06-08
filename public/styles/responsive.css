@@ -24,7 +24,20 @@
     }
 
     #page-search-results .cards img {
-        height: 200px;
+        height: 250px;
+    }
+
+    #itens-grid {
+        display: flex;
+    }
+    
+    #page-create-point .field-group {
+        flex-direction: column;
+        display: flex;
+    }
+
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
     }
 }
 
