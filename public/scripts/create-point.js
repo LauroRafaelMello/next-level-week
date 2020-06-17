@@ -80,5 +80,5 @@ document
             selectedItems.push(itemId)
         }
         //atualizar o campo escondido com os itens selecionados
-        document.querySelector("input[name=items]")
+        collectedItems.value = selectedItems
     }
